@@ -16,4 +16,11 @@ Store.create(name:"Yaletown" , annual_revenue: 430000, mens_apparel:true, womens
 @mens_stores.each do |store|
   puts store.name
 end
+@womens_stores=Store.womens_apparel_stores
+
+@womens_stores.each do |store|
+  puts store.name
+end
+
+
 
